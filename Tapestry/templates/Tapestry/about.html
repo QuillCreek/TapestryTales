@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}Tapestry Tales{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'Tapestry/css/style.css' %}">
+    </head>
+    
+    {% include 'Tapestry/navHeader' %}
+
+    <body>
+
+        <p style="margin-left: 5%; margin-right: 5%; margin-top: 2%;">Include Information here</p>
+
+    </body>
+
+</html>
